@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa: Hosting, Dominios y Despliegue Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1> Hosting, Dominios y Despliegue Web</h1>
+            <p>Todo lo que necesitas saber para publicar tu sitio web con información actualizada</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card-container">
+            <!-- Tarjeta de Hosting -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>Hosting Web</h2>
+                    <i class="fas fa-server"></i>
+                </div>
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Servidores de hosting" class="card-image">
+                <div class="card-body">
+                    <p>El hosting web es el servicio que permite almacenar los archivos de tu sitio web en servidores conectados a internet para que sean accesibles desde cualquier lugar.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <i class="fas fa-chart-line"></i> Mercado global: $102.1 mil millones (2023)
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-crown"></i> Más usado: GoDaddy (18.5% cuota)
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-star"></i> Mejor valorado: SiteGround
+                        </div>
+                    </div>
+                    
+                    <div class="example">
+                        <h3><i class="fas fa-lightbulb"></i> Ejemplo práctico</h3>
+                        <p><img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Analogía de hosting como terreno" style="float: right; width: 100px; margin-left: 15px; border-radius: 5px;"> Imagina que tu sitio web es una casa. El hosting sería el terreno donde construyes esa casa. Sin terreno (hosting), no hay donde poner tu casa (sitio web).</p>
+                        <p>Según W3Techs, los proveedores más populares son GoDaddy, Amazon AWS y Google Cloud. El hosting compartido es el más económico (desde $2.75/mes), mientras que los servidores dedicados pueden costar cientos de dólares mensuales.</p>
+                    </div>
+                    
+                    <div class="tools">
+                        <h3><i class="fas fa-tools"></i> Proveedores recomendados</h3>
+                        <ul>
+                            <li><strong>Principiantes:</strong> Bluehost (oficial de WordPress), Hostinger (mejor relación calidad-precio)</li>
+                            <li><strong>Empresas:</strong> SiteGround (mejor soporte), Kinsta (hosting WordPress premium)</li>
+                            <li><strong>Desarrolladores:</strong> DigitalOcean (VPS asequible), AWS (escalabilidad)</li>
+                            <li><strong>Internacional:</strong> OVH (Europa), Alibaba Cloud (Asia)</li>
+                        </ul>
+                    </div>
+                    <div class="tools">
+                        <h3><i class="fas fa-tools"></i> Herramientas recomendadas</h3>
+                        <ul>
+                            <li><strong>Hosting compartido:</strong> SiteGround, Bluehost, HostGator</li>
+                            <li><strong>VPS:</strong> DigitalOcean, Linode, Vultr</li>
+                            <li><strong>Cloud:</strong> AWS Lightsail, Google Cloud, Azure</li>
+                            <li><strong>Paneles:</strong> cPanel, Plesk, DirectAdmin</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de Dominio -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>Dominios Web</h2>
+                    <i class="fas fa-globe"></i>
+                </div>
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Registro de dominios" class="card-image">
+                <div class="card-body">
+                    <p>Un dominio es la dirección única que las personas usan para acceder a tu sitio web (ejemplo: mipagina.com). Es tu identidad en internet.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <i class="fas fa-chart-line"></i> 366.8 millones de dominios registrados (2023)
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-crown"></i> Extensión más popular: .com (48.1%)
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-dollar-sign"></i> Dominio más caro vendido: voice.com ($30 millones)
+                        </div>
+                    </div>
+                    
+                    <div class="example">
+                        <h3><i class="fas fa-lightbulb"></i> Ejemplo práctico</h3>
+                        <p><img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Dominio como dirección postal" style="float: left; width: 100px; margin-right: 15px; border-radius: 5px;"> Si tienes una panadería llamada "Pan Deli", podrías registrar "pandeli.com". Según Verisign, los dominios .com cuestan entre $8-$15/año, mientras que extensiones nuevas como .tech pueden costar $20-$50/año.</p>
+                        <p>Los dominios de nivel superior genéricos (gTLD) como .com, .net y .org representan el 42% de todos los dominios registrados.</p>
+                    </div>
+                    
+                    <div class="tools">
+                        <h3><i class="fas fa-tools"></i> Registradores recomendados</h3>
+                        <ul>
+                            <li><strong>Mejor precio:</strong> Namecheap (incluye WHOIS privado gratis)</li>
+                            <li><strong>Integración con Google:</strong> Google Domains (ahora Squarespace)</li>
+                            <li><strong>Empresarial:</strong> Cloudflare Registrar (precio al costo)</li>
+                            <li><strong>Internacional:</strong> Gandi.net (Europa), Alibaba Cloud (China)</li>
+                        </ul>
+                    </div>
+                    <div class="tools">
+                        <h3><i class="fas fa-tools"></i> Herramientas recomendadas</h3>
+                        <ul>
+                            <li><strong>Registradores:</strong> Namecheap, Google Domains, Porkbun</li>
+                            <li><strong>Buscadores:</strong> InstantDomainSearch, Name.com</li>
+                            <li><strong>Sugerencias:</strong> LeanDomainSearch, NameMesh</li>
+                            <li><strong>DNS:</strong> Cloudflare, DNSimple</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta de Despliegue -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>Despliegue Web</h2>
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Proceso de despliegue" class="card-image">
+                <div class="card-body">
+                    <p>El despliegue web es el proceso de publicar un sitio web o aplicación para que esté disponible en internet.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <i class="fas fa-chart-line"></i> 60% de desarrolladores usan FTP
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-crown"></i> Método más popular: FileZilla (38%)
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-clock"></i> Tiempo promedio de despliegue: 12-48 horas
+                        </div>
+                    </div>
+                    
+                    <div class="example">
+                        <h3><i class="fas fa-lightbulb"></i> Ejemplo práctico</h3>
+                        <p><img src="https://www.unir.net/wp-content/uploads/2022/11/creaciC3B3n-responde-internet-sitio-web-para-mC3BAltiples-plataformas-construcciC3B3n-de-interfaz.jpg_s1024x1024wisk20cCPD-dlmkZaO20fLYdBnVwLM9Rfj8UjG4ZJnCjbCgdOc.jpg" alt="Transferencia de archivos" style="float: right; width: 100px; margin-left: 15px; border-radius: 5px;"> Según Stack Overflow Developer Survey 2023, el 61% de desarrolladores aún usan FTP/SFTP para despliegue, mientras que el 29% usa plataformas como GitHub Pages o Netlify. Un despliegue típico con FileZilla toma 5-15 minutos para sitios pequeños.</p>
+                        <p>Para sitios WordPress, muchos usan plugins como Duplicator (34% cuota) o All-in-One WP Migration (27%).</p>
+                    </div>
+                    
+                    <div class="tools">
+                        <h3><i class="fas fa-tools"></i> Métodos de despliegue</h3>
+                        <ul>
+                            <li><strong>FTP tradicional:</strong> FileZilla (Windows), Cyberduck (Mac)</li>
+                            <li><strong>Git/GitHub:</strong> GitHub Pages (gratis para sitios estáticos)</li>
+                            <li><strong>Plataformas modernas:</strong> Netlify, Vercel (para aplicaciones JS)</li>
+                            <li><strong>Automatización:</strong> Jenkins, GitHub Actions, Docker</li>
+                        </ul>
+                    </div>
+                     <div class="tools">
+                        <h3><i class="fas fa-tools"></i> Herramientas relacionadas</h3>
+                        <ul>
+                            <li><strong>Alternativas:</strong> WinSCP, Cyberduck, Transmit</li>
+                            <li><strong>FTP seguro:</strong> SFTP/SSH (más seguro que FTP)</li>
+                            <li><strong>Automatización:</strong> GitHub Actions, DeployHQ</li>
+                            <li><strong>Editores con FTP:</strong> VS Code (extensión SFTP)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proceso completo -->
+        <div class="process">
+            <h2><i class="fas fa-list-ol"></i> Proceso Completo de Publicación Web</h2>
+            
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Diagrama de publicación web" class="process-image">
+            
+            <div class="process-steps">
+                <div class="step">
+                    <h3>1. Registrar un dominio</h3>
+                    <p><img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Registro de dominio" style="float: left; width: 80px; margin-right: 15px; border-radius: 5px;"> Elige un nombre relevante (idealmente .com) con un proveedor acreditado. El precio promedio es $12/año. Verifica disponibilidad en namecheap.com o similar.</p>
+                </div>
+                <div class="step">
+                    <h3>2. Contratar hosting adecuado</h3>
+                    <p><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Servidores de hosting" style="float: right; width: 80px; margin-left: 15px; border-radius: 5px;"> Para sitios pequeños: hosting compartido ($3-$10/mes). Para e-commerce: VPS ($20-$100/mes). Los más populares son Bluehost, SiteGround y Hostinger.</p>
+                </div>
+                <div class="step">
+                    <h3>3. Configurar DNS</h3>
+                    <p><img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Configuración DNS" style="float: left; width: 80px; margin-right: 15px; border-radius: 5px;"> En tu registrador, cambia los nameservers a los de tu hosting (ej: ns1.bluehost.com). La propagación DNS tarda 1-48 horas. Verifica con whatsmyDNS.net.</p>
+                </div>
+                <div class="step">
+                    <h3>4. Desarrollar tu sitio localmente</h3>
+                    <p><img src="https://tse1.mm.bing.net/th/id/OIP.ndmxzfR4csXLuPxdZ0cwHgHaEO?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Desarrollo web" style="float: right; width: 80px; margin-left: 15px; border-radius: 5px;"> Usa XAMPP/MAMP para entornos locales. Para CMS: WordPress (63% cuota de mercado), Joomla o Drupal. Sitios estáticos: HTML/CSS/JS o generadores como Jekyll.</p>
+                </div>
+                <div class="step">
+                    <h3>5. Subir archivos con FileZilla</h3>
+                    <p><img src="https://tse1.mm.bing.net/th/id/OIP.sL0GdOKg_EXikdIAn70LuwHaEj?w=812&h=500&rs=1&pid=ImgDetMain&o=7&rm=3" alt="FileZilla interface" style="float: left; width: 80px; margin-right: 15px; border-radius: 5px;"> Usa los datos FTP de tu hosting (generalmente en cPanel). Sube archivos a public_html/ o www/. Prefiere SFTP (puerto 22) sobre FTP (puerto 21) por seguridad.</p>
+                </div>
+                <div class="step">
+                    <h3>6. Verificar y optimizar</h3>
+                    <p><img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Testing en dispositivos" style="float: right; width: 80px; margin-left: 15px; border-radius: 5px;"> Usa Google PageSpeed Insights y Mobile-Friendly Test. Implementa SSL (Let's Encrypt es gratis). Configura backups automáticos (cPanel o plugins).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Guía Completa de Publicación Web | everson solorzano</p>
+        </div>
+    </footer>
+</body>
+</html>
